@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>this project is calculator</title>
+<style type="text/css">
+*{
+margin:0;
+padding:0;
+background:#f8f8f8;
+}
+.cal{
+text-align:center;
+}
+.card{
+margin:0 auto;
+width:350px;
+text-align:center;
+margin-top:10px;
+box-shadow:0 4px  8px 0 rgba(0,0,0,0.2);
+transition:0.3s;
+font-size:0;
+}
+.card:hover{
+box-shadow:0 16px  32px 0 rgba(0,0,0,0.2);
+}
+.calc-head #result{
+width:335px;
+height:100px;
+font-size:16px;
+font-weight:bold;
+text-align:right;
+padding:0 5px;
+letter-spacing:2px;
+}
+.btn{
+width:87px;
+height:70px;
+font-weight:bold;
+font-size:16px;
+color:white;
+background:#778899;
+}
+
+.btn:hover{
+background-color:#1e90ff;
+}
+
+
+</style>
+</head>
+<body>
+<h1 class="cal">Calculator</h1>
+<div class="card">
+<div class="calc-head">
+<input type="text" id="result" maxlength="15">
+</div>
+<div class="calc-body">
+<div>
+<input type="button" class="btn" style="color:#1c51ff;" value="C">
+<input type="button" class="btn" style="color:#1c51ff;" value="+/-">
+<input type="button" class="btn" style="color:#1c51ff;" value="%">
+<input type="button" class="btn" style="color:#1c51ff;" value="÷">
+</div>
+
+<div>
+<input type="button" class="btn" value="7">
+<input type="button" class="btn" value="8">
+<input type="button" class="btn" value="9">
+<input type="button" class="btn" style="color:#1c51ff;" value="×">
+</div>
+
+<div>
+<input type="button" class="btn" value="4">
+<input type="button" class="btn" value="5">
+<input type="button" class="btn" value="6">
+<input type="button" class="btn" style="color:#1c51ff;" value="-">
+</div>
+
+<div>
+<input type="button" class="btn" value="1">
+<input type="button" class="btn" value="2">
+<input type="button" class="btn" value="3">
+<input type="button" class="btn" style="color:#1c51ff;" value="+">
+</div>
+
+<div>
+<input type="button" class="btn" value="0">
+<input type="button" class="btn" value=".">
+<input type="button" class="btn" style="background-color:#c62828;" value="DEL">
+<input type="button" class="btn" style="background-color:#1c51ff;" value="=">
+</div>
+</div>
+</div>
+</body>
+</html>
